@@ -5,10 +5,10 @@ import {BsTwitter} from 'react-icons/bs'
 const Left = () => {
   return (
     <div className='sm:w-1/2 md:w-1/3 flex flex-col pt-4 justify-center md:justify-center items-center md:h-[calc(100vh-80px)] bg-white'>
-    <h1 className='text-4xl sm:text-4xl md:text-5xl lg:text-7xl tracking-widest font-semibold'>Men's</h1>
-    <h1 className='text-4xl sm:text-4xl md:text-5xl lg:text-7xl tracking-widest font-semibold mt-3'>Casual</h1>
-    <h1 className='text-4xl sm:text-4xl md:text-5xl lg:text-7xl tracking-widest font-semibold mt-3'>Jacket</h1>
-    <p className='md:text-xs lg:text-sm mt-8 px-3'>100% Cotton, Model is 6`1 And Wears Size M</p>
+    <h1 className='text-5xl sm:text-5xl md:text-5xl text-stone-600 lg:text-7xl tracking-widest font-semibold'>Men's</h1>
+    <h1 className='text-5xl sm:text-5xl md:text-5xl text-stone-600 lg:text-7xl tracking-widest font-semibold mt-3'>Casual</h1>
+    <h1 className='text-5xl sm:text-5xl md:text-5xl text-stone-600 lg:text-7xl tracking-widest font-semibold mt-3'>Jacket</h1>
+    <p className='md:text-xs lg:text-sm mt-8 px-2'>100% Cotton, Model is 6`1 And Wears Size M</p>
   
     <div className='flex justify-center items-center w-full mt-6'>
         <span>Colors</span>
@@ -21,19 +21,19 @@ const Left = () => {
     </div>
 
     <div className='w-[80%] flex justify-start items-center mt-8 mb-8  bg-stone-100 py-2'>
-        <div className='w-[33.33%] flex justify-center items-center'>
+        <div className='w-[33.33%] flex justify-center items-center cursor-pointer'>
        <div className='w-[30px] h-[30px] flex justify-center items-center bg-stone-900 rounded-full mr-2'>
        <FaFacebookF className='text-md text-stone-50'/>
        </div>
             <span className='text-sm text-stone-700'>Share</span>                  
         </div>
-        <div className='w-[33.33%] flex justify-center items-center '>
+        <div className='w-[33.33%] flex justify-center items-center  cursor-pointer'>
        <div className='w-[30px] h-[30px] flex justify-center items-center bg-stone-900 rounded-full mr-2'>
        <BsTwitter className='text-md text-stone-50'/>
        </div>
             <span className='text-sm text-stone-700'>Tweet</span>                   
         </div>
-        <div className='w-[33.33%] flex justify-center items-center '>
+        <div className='w-[33.33%] flex justify-center items-center  cursor-pointer'>
        <div className='w-[30px] h-[30px] flex justify-center items-center bg-stone-900 rounded-full mr-2'>
        <FaPinterestP className='text-md text-stone-50'/>
        </div>

@@ -22,18 +22,18 @@ const Right = () => {
         <div className='w-full '>
             <div className='w-full flex justify-between items-center'>
                 <span className='font-semibold text-xl'>Product Info</span>
-                <span><AiOutlineMinus className='text-xl'/></span>
+                <span><AiOutlineMinus className='text-xl cursor-pointer'/></span>
             </div>
             <div className='w-full flex justify-start items-center p-2'>
                 <p className='tracking-wide text-stone-700 text-sm'>A hoodie is the type of garm you can practically live in and a boohooMAN printed hoodie is no different 100% Cotton Model 6`1 and Wears  Size M</p>
             </div>
             <div className='w-full flex justify-between items-center py-2 border-[1px] border-slate-200 px-3 rounded-xl'>
                 <span className='font-semibold'>Delivery Info</span>
-                <span><AiOutlinePlus className='text-xl'/></span>
+                <span><AiOutlinePlus className='text-xl cursor-pointer'/></span>
             </div>
             <div className='w-full flex justify-between items-center py-2 border-[1px] border-slate-200 px-3 rounded-xl mt-2'>
                 <span className='font-semibold'>Returns Info</span>
-                <span><AiOutlinePlus className='text-xl'/></span>
+                <span><AiOutlinePlus className='text-xl cursor-pointer'/></span>
             </div>
         </div>
     </div>
